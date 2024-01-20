@@ -5,3 +5,4 @@ for i in range(10):
 
 n = i
 sum = n + (n - 1)
+print(f"Current Number {n} Previous Number {n - 1} Sum: {sum}")
