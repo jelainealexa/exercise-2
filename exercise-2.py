@@ -2,3 +2,6 @@
 
 for i in range(10):
     print(i)
+
+n = i
+sum = n + (n - 1)
