@@ -1,8 +1,7 @@
 # Print the sum of the current number and the previous number
 
 for i in range(10):
-    print(i)
-
-n = i
-sum = n + (n - 1)
-print(f"Current Number {n} Previous Number {n - 1} Sum: {sum}")
+    current_number = i
+    previous_number = i - 1
+    sum = current_number + previous_number
+    print(f"Current Number {current_number} Previous Number {previous_number} Sum: {sum}")
